@@ -71,6 +71,7 @@ int main()
 	for (int i = 0; i < length; i++)
 		cout << a[i] << " ";
 	cout << endl;
+	for (;1;)
 	merge_sort(a, 0, length - 1);
 	cout << "排序后的数组：" << endl;
 	for (int i = 0; i < length; i++)
